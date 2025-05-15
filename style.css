@@ -12,19 +12,19 @@
 }
 
 html, body {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: lightgray;
 }
 
 body {
-    background: url('images/fundo-madeira.jpg') no-repeat top center;
-    background-size: contain; /*the image resizes itself to occupy the entire screen*/
+    background: url('images/fundo-madeira.jpg') no-repeat;
+    background-size: cover; /*the image resizes itself to occupy the entire screen*/
     background-attachment: fixed;
 }
 
 main {
-    height: 100vh;
+    height: 100%;
     /* width: 50vw;
     margin: auto; */
     position: relative;
