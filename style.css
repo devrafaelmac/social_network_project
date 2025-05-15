@@ -64,9 +64,13 @@ section#social-media img{
     box-sizing: border-box; /*set border included in total size*/
 }
 
-section#social-media img:hover {
+section#social-media a:hover img {
     border: 2px solid rgba(255, 255, 255, 0.336);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
     transition: transform 0.3s, border 0.1;
+}
+
+section#social-media a:active img{
+    box-shadow: 2px 2px 3px white;
 }
