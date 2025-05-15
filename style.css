@@ -19,7 +19,7 @@ html, body {
 
 body {
     background: url('images/fundo-madeira.jpg') no-repeat top center;
-    background-size: cover; /*the image resizes itself to occupy the entire screen*/
+    background-size: contain; /*the image resizes itself to occupy the entire screen*/
     background-attachment: fixed;
 }
 
